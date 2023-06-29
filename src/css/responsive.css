@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+    body{
+       padding: 12px;
+    }
+
+    .num-conselho {
+        font-size: 11px;        
+    }
+    .conselho {
+        font-size: 24px;       
+    }    
+}
+
+@media (max-width: 376px) {   
+    .conselho {
+        font-size: 21px;       
+    }    
+}
+

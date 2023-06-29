@@ -19,7 +19,6 @@ main {
     align-items: center;
     justify-content: space-between;
     position: relative;
-
 }
 
 .container-conselho {
@@ -35,12 +34,12 @@ main {
 .conselho {
     font-size: 28px;
     color: var(--cor-conselho);
-
 }
 
 .divisor {
     margin: 48px 0;
 }
+
 
 .btn-novo-conselho {
     width: 64px;
