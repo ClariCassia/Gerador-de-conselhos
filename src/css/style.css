@@ -1,3 +1,58 @@
-body{
-    font-family: 'Manrope', sans-serif;
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: var(--cor-do-gerador);
+    width: 540px;
+    height: 332px;
+    padding: 48px;
+    border-radius: 15px;
+    box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.container-conselho {
+    text-align: center;
+}
+
+.num-conselho {
+    font-size: 13px;
+    color: var(--cor-id-conselho);
+    margin-bottom: 24px;
+}
+
+.conselho {
+    font-size: 28px;
+    color: var(--cor-conselho);
+
+}
+
+.divisor {
+    margin: 48px 0;
+}
+
+.btn-novo-conselho {
+    width: 64px;
+    height: 64px;
+    background-color: var(--cor-id-conselho);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -34px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-novo-conselho:hover {
+    box-shadow: 0 0 10px 2px var(--cor-id-conselho);
+    cursor: pointer;
 }
