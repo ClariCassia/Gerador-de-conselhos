@@ -20,7 +20,7 @@ Esse projeto se trata de um gerador de conselhos usando a Advice Slip API, forne
 
 <br>
 
- <img src="src/imagens/acondeon.gif" alt="gif tela desktop">
+ <img src="src/images/desktop.gif.gif" alt="gif tela desktop">
 <br>
 <br>
 
@@ -28,7 +28,7 @@ Esse projeto se trata de um gerador de conselhos usando a Advice Slip API, forne
 
 <br>
 
- <img src="src/imagens/acondeon.gif" alt="gif tela mobile">
+ <img src="src/images/mobile.gif.gif" alt="gif tela mobile">
 <br>
 <br>
 
@@ -49,4 +49,4 @@ Nele também pude aprimorar várias habilidades e conhecimentos em HTML e CSS.
 
 ## Acesso a página
 
-Para ver o projeto pronto [clique aqui ]()
+Para ver o projeto pronto [clique aqui ](https://claricassia.github.io/Gerador-de-conselhos/)
