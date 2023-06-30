@@ -1,13 +1,17 @@
 @media (max-width: 576px) {
     body{
-       padding: 12px;
+       padding: 15px;
     }
-
+    
     .num-conselho {
-        font-size: 11px;        
+        font-size: 11px; 
+        margin: 28px 0;       
     }
     .conselho {
         font-size: 24px;       
+    }    
+    .divisor {
+        margin: 30px 0;
     }    
 }
 
