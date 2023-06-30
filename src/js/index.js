@@ -16,7 +16,7 @@ async function geraIdConselhos() {
 async function gerarConselhosAleatorios() {
 
     const idConselho = await geraIdConselhos();
-    numeroConselho.innerHTML = `ADVICE #&nbsp #${idConselho}`
+    numeroConselho.innerHTML = `ADVICE &nbsp #${idConselho}`
 
     const resposta = await fetch(`${urlBase}/${idConselho}`);
     const conselho = await resposta.json();
