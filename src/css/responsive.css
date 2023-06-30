@@ -15,7 +15,10 @@
     }    
 }
 
-@media (max-width: 376px) {   
+@media (max-width: 376px) {  
+    main{
+        max-width: 350px;
+    } 
     .conselho {
         font-size: 21px;       
     }    
