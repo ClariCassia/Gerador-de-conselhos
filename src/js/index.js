@@ -1,26 +1,16 @@
 const btnNovoConselho = document.querySelector('.btn-novo-conselho');
-const numeroConselho = document.getElementById('id-conselho')
-const novoConselho = document.querySelector('.conselho')
-const urlBase = 'https://api.adviceslip.com/advice';
+let idConselho = document.getElementById('id-conselho')
+let conselho = document.querySelector('.conselho')
 
-btnNovoConselho.addEventListener("click", gerarConselhosAleatorios)
-
-async function geraIdConselhos() {
-
-    const resposta = await fetch(urlBase);
-    const conselhos = await resposta.json();
-    return conselhos.slip.id
-
-}
 
 async function gerarConselhosAleatorios() {
-
-    const idConselho = await geraIdConselhos();
-    numeroConselho.innerHTML = `ADVICE &nbsp #${idConselho}`
-
-    const resposta = await fetch(`${urlBase}/${idConselho}`);
-    const conselho = await resposta.json();
-    novoConselho.innerHTML = conselho.slip.advice
+  const resposta = await fetch('https://api.adviceslip.com/advice')
+  const infoConselho = await resposta.json();   
+  idConselho.innerHTML = `ADVICE &nbsp #${infoConselho.slip.id}` 
+  conselho.innerHTML = infoConselho.slip.advice
+  
 }
+
+btnNovoConselho.addEventListener("click", gerarConselhosAleatorios)
 
 gerarConselhosAleatorios()
